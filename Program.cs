@@ -9,11 +9,12 @@ namespace NumberGuesser
         // Entry Point
         static void Main(string[] args)
         {
+            //Setting app vars
+            string appName ="Number Guesser";
+            string appVersion = "1.0.0";
+            string appAuthor = "Christa Stephens";
 
-            string name = "Christa Stephens";
-            int age = 31;
-
-            Console.WriteLine("{0} is {1}",name, age);
+            Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
 
         }
     }
